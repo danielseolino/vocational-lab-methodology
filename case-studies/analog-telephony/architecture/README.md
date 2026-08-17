@@ -38,6 +38,20 @@ This architecture allows individual analog extensions to be routed through the M
 
 ---
 
+## Figure 3 — Mobile Analog/VoIP Training Platform
+
+![Mobile Analog VoIP Training Platform](mobile-analog-voip-training-platform.png)
+
+**Figure 3.** Physical implementation of one of the mobile Analog/VoIP training platforms used to support telecommunications laboratory activities.
+
+The mobile platform consolidates the principal service and network components required for the laboratory into a transportable system. The implementation includes the PBX server, PoE Ethernet switch, wireless router/access point, preconfigured VoIP telephone, analog telephony interface hardware, and the 25-pair distribution/protection connection.
+
+The 25-pair distribution connection provides an intermediate interface between the PBX hardware and the cabling routinely handled during laboratory activities. This allows frequently manipulated external cabling and terminations to be repaired or replaced without requiring modification or replacement of the primary PBX interface cabling.
+
+The preconfigured VoIP telephone provides a functional endpoint that can be used during analog telephony activities to verify completed student installations without requiring students to configure the VoIP infrastructure at this stage of the curriculum.
+
+Two mobile platforms are available for laboratory activities, while an additional fixed installation is maintained in the telecommunications laboratory. The mobile configuration allows the same infrastructure to support different classrooms, modules, and instructors without requiring complete duplication of the system.
+
 ## Architecture Design Considerations
 
 The laboratory architecture was developed around several practical considerations:
