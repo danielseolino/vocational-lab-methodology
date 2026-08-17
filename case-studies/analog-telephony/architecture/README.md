@@ -73,7 +73,6 @@ These design decisions support the broader objective of transforming authentic t
 
 Additional architecture documentation will include:
 
-- physical implementation of the mobile training platform;
-- identification of major system components;
+
 - relationship between mobile and fixed laboratory installations;
 - hardware inventory and implementation considerations.
