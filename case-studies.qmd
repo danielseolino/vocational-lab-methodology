@@ -33,7 +33,7 @@ Students progressively work with:
 
 The laboratory combines student-installed infrastructure with supporting telecommunications systems so that completed work can be tested as part of a functioning service.
 
-[**Explore the Analog Telephony Laboratory →**](case-studies/analog-telephony/)
+[**Explore the Analog Telephony Laboratory →**](case-studies/analog-telephony/index.qmd)
 
 ---
 
