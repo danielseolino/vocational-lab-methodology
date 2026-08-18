@@ -1,0 +1,83 @@
+---
+title: "Software"
+subtitle: "Analog Telephony Laboratory Software Environment"
+---
+
+# Software
+
+The Analog Telephony Laboratory uses a Linux-based PBX environment to generate and manage the telephone services used throughout the laboratory.
+
+The software platform integrates the PBX management interface, telephony engine, analog hardware interface, and SIP/VoIP services required to support the learning environment.
+
+## Software Environment
+
+The implementation includes:
+
+- Linux operating system
+- Asterisk telephony engine
+- FreePBX management interface
+- DAHDI hardware interface
+- SIP/VoIP services
+
+Together, these components allow the laboratory server to manage both analog extensions and IP-based endpoints.
+
+## FreePBX
+
+FreePBX provides the web-based administration interface used to configure and manage the laboratory PBX.
+
+Through FreePBX, the instructor can manage extensions, telephony hardware, internal dialing, and other PBX functions without requiring students to interact directly with the underlying server configuration.
+
+## Asterisk
+
+Asterisk provides the telephony engine responsible for call processing within the laboratory.
+
+It manages the communication between analog extensions connected through the FXS hardware and SIP/VoIP endpoints connected through the laboratory network.
+
+## DAHDI Interface
+
+DAHDI provides the software interface between Asterisk and the Digium analog telephony hardware.
+
+In the implemented laboratory, the DAHDI configuration exposes the physical FXS ports as analog telephone channels that can be assigned to individual extensions.
+
+## Analog Extensions
+
+The laboratory analog extensions are associated with physical FXS channels.
+
+Each configured extension corresponds to a physical analog telephone circuit distributed through the laboratory telecommunications infrastructure.
+
+This allows the PBX to provide the telephone service used by students during installation and testing activities.
+
+## SIP / VoIP Extensions
+
+SIP extensions are also configured within the PBX environment.
+
+Preconfigured SIP/VoIP phones can be used as functional endpoints, allowing calls between IP phones and student-installed analog telephone circuits.
+
+This provides a practical method for verifying that the completed analog installation is operational.
+
+## FreePBX Configuration
+
+Detailed screenshots and implementation information for the laboratory PBX are available here:
+
+[View FreePBX Configuration](freepbx-configuration.md)
+
+## Replication Considerations
+
+The laboratory does not depend exclusively on the specific software versions used in the implemented system.
+
+Equivalent Linux-based PBX platforms may be used provided that they can support:
+
+- Analog FXS interfaces
+- Internal extension management
+- Analog-to-analog calling
+- SIP/VoIP endpoints
+- Integration between analog and IP telephony
+
+The software environment therefore represents one practical implementation rather than a mandatory platform specification.
+
+## Related Documentation
+
+- [Architecture](../architecture/index.qmd)
+- [Hardware](../hardware/index.qmd)
+- [Learning Activities](../learning-activities/index.qmd)
+- [Return to Analog Telephony Laboratory](../index.qmd)
