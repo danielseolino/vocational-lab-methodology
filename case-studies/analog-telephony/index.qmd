@@ -1,0 +1,70 @@
+---
+title: "Analog Telephony Laboratory"
+subtitle: "A Low-Cost Industry-Based Learning Environment"
+---
+
+# Analog Telephony Laboratory
+
+The Analog Telephony Laboratory documents a practical approach for transforming a real telecommunications service path into an accessible hands-on learning environment for vocational education.
+
+The laboratory combines student-installed infrastructure with supporting analog and IP telephony systems so that students can construct, terminate, distribute, test, and functionally verify telecommunications installations.
+
+## Learning Environment
+
+The laboratory represents the relationship between:
+
+**PBX Service Source → Simulated Outside Plant → Customer-Premises Infrastructure → Functional Verification**
+
+Students work with components and tasks including:
+
+- SLIC / distribution points;
+- aerial drop cabling;
+- Network Interface Devices (NID);
+- MDF and IDF distribution;
+- Cat 3 analog telephone cabling;
+- Cat 6 network cabling;
+- RJ-11 and RJ-45 outlets;
+- analog telephones;
+- cross-connections;
+- testing and qualification;
+- and functional telephone calls.
+
+## Explore the Case Study
+
+### Architecture
+
+View the service-path diagrams, PBX architecture, and physical mobile laboratory implementation.
+
+[Explore Architecture](architecture/)
+
+### Hardware
+
+View the PBX server, analog telephony interface, FXS hardware, network equipment, distribution interface, and implementation photographs.
+
+[Explore Hardware](hardware/)
+
+### Software
+
+View the Linux, Asterisk, FreePBX, DAHDI, analog-extension, and SIP/VoIP environment.
+
+[Explore Software](software/)
+
+### Learning Activities
+
+View the instructional activities used to progressively build and test the telecommunications infrastructure.
+
+[Explore Learning Activities](learning-activities/)
+
+## Educational Approach
+
+The supporting PBX infrastructure is configured by the instructor and provides analog telephone service to the student-installed circuits.
+
+During the analog telephony activities, VoIP is used primarily as a functional verification tool. Students are therefore able to make and receive real telephone calls without requiring VoIP configuration to become the primary learning objective.
+
+The learning progression can be summarized as:
+
+**Build → Terminate → Distribute → Test → Connect → Operate**
+
+## Technical Documentation
+
+The complete technical documentation remains available in the GitHub repository, including implementation details, original laboratory materials, configuration examples, and project history.
