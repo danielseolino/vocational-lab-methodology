@@ -1,0 +1,67 @@
+---
+title: "Vocational Laboratory Methodology"
+subtitle: "Transforming Industry Scenarios into Accessible Hands-On Learning Environments"
+---
+
+## About the Project
+
+Vocational education depends heavily on authentic hands-on experiences. However, reproducing real industry environments in educational institutions can be challenging because of equipment costs, infrastructure requirements, maintenance, technological change, and limited instructional resources.
+
+The **Vocational Laboratory Methodology** project documents practical approaches for transforming real industry scenarios into accessible learning environments for vocational education.
+
+Rather than proposing new technologies, the project focuses on how existing, donated, repurposed, and low-cost technologies can be organized into meaningful laboratory experiences that preserve relevant workplace practices.
+
+## From Industry Practice to Learning Environment
+
+The project explores a practical process for developing vocational laboratory activities:
+
+**Industry Scenario → Technical Analysis → Laboratory Adaptation → Hands-On Activity → Functional Verification → Reflection and Improvement**
+
+The emphasis is not simply on demonstrating equipment.
+
+Students build, terminate, configure, test, troubleshoot, and operate systems that reproduce meaningful relationships between components found in real technical environments.
+
+## Case Studies
+
+### Analog Telephony Laboratory
+
+The first documented case study examines an analog telecommunications learning environment integrating:
+
+- outside-plant service representation;
+- customer-premises telephone infrastructure;
+- MDF and IDF distribution;
+- analog telephone circuits;
+- a Linux-based PBX;
+- functional call verification using VoIP endpoints;
+- structured cabling and network infrastructure.
+
+The laboratory allows students to progressively construct a telecommunications service path and verify their work through functional communication.
+
+[Explore the Analog Telephony Case Study](case-studies/analog-telephony/)
+
+## Project Documentation
+
+Each case study may include:
+
+- system architecture;
+- hardware implementation;
+- software configuration;
+- learning activities;
+- implementation photographs;
+- replication considerations;
+- cost analysis;
+- supporting technical resources.
+
+The objective is to make the implementation understandable and adaptable rather than prescribe a specific equipment configuration.
+
+## Ongoing Development
+
+This project is an evolving collection of vocational laboratory case studies and supporting research.
+
+Future case studies will explore additional telecommunications, networking, automation, and related technical learning environments.
+
+---
+
+**Daniel W. Seolino**  
+Telecommunications & Electrical Instructor  
+Vocational Education | Educational Technology
