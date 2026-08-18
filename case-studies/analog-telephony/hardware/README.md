@@ -23,6 +23,8 @@ The objective is to demonstrate that an operational telecommunications training 
 
 ---
 
+![Mobile Analog Telephony Laboratory](mobile-lab-setup.jpeg)
+
 ## PBX Server
 
 The laboratory PBX is hosted on a repurposed **Dell Precision T3600 workstation**.
@@ -37,6 +39,8 @@ The Dell Precision T3600 is the equipment used in this implementation; however, 
 
 ---
 
+![Digium AEX2400 Analog Interface](digium-aex2400-analog-interface.jfif)
+
 ## Analog Telephony Interface
 
 Analog telephone service is generated through a **Digium AEX2400 PCIe telephony interface card** installed in the PBX server.
@@ -50,6 +54,8 @@ In the current implementation, the analog interface can support multiple student
 The specific Digium hardware represents the equipment available for this implementation. Other compatible analog telephony interfaces could be used to reproduce the same educational architecture.
 
 ---
+
+![25-Pair Distribution and Protection Interface](25-pair-distribution-interface.jpeg)
 
 ## 25-Pair Distribution Interface
 
@@ -78,6 +84,8 @@ This approach contributes directly to the low-cost and maintainable design philo
 
 ---
 
+![EnGenius EGS7228FP PoE+ Switch](engenius-egs7228fp-poe-switch.jfif)
+
 ## Ethernet and PoE Infrastructure
 
 An **EnGenius EGS7228FP PoE+ switch** provides Ethernet connectivity for the IP portion of the laboratory.
@@ -93,6 +101,8 @@ This separation is pedagogically intentional: students can experience the comple
 ---
 
 ## Wireless Access
+
+![ASUS RT-N10 Wireless Router](asus-rt-n10-wireless-router.jfif)
 
 An **ASUS RT-N10 Wireless N Router** is included in the mobile laboratory setup.
 
