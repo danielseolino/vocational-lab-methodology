@@ -70,6 +70,18 @@ These elements will be documented separately in the VoIP case study.
 
 ## Documentation Status
 
-This case study is currently being documented.
+The core documentation for this case study currently includes:
 
-Future additions will include system diagrams, hardware documentation, laboratory activities, implementation details, photographs, configuration information, and cost considerations.
+- system architecture and end-to-end service-path diagrams;
+- hardware documentation and implementation photographs;
+- PBX software architecture and configuration examples;
+- documented learning activities;
+- optional complementary telecommunications activities.
+
+Future development will focus on:
+
+- implementation cost analysis;
+- replication guidance;
+- instructor notes;
+- refinement of the laboratory methodology;
+- and preparation of related technical and academic publications.
