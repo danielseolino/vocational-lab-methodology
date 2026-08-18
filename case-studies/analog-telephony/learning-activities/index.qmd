@@ -53,7 +53,7 @@ Additional activities can be incorporated without changing the core laboratory s
 
 These activities may extend the learning environment to related telecommunications technologies or provide additional exploration of the supporting infrastructure.
 
-[Explore Optional Activities](optional-activities/readme.md)
+[Explore Optional Activities](optional-activities/index.qmd)
 
 ## Related Documentation
 
