@@ -70,10 +70,10 @@ These design decisions support the broader objective of transforming authentic t
 
 ---
 
-## Planned Documentation
+## Future Development
 
-Additional architecture documentation will include:
+Future architecture documentation may include:
 
-
-- relationship between mobile and fixed laboratory installations;
-- hardware inventory and implementation considerations.
+- a more detailed comparison between mobile and fixed laboratory deployments;
+- additional diagrams required for replication or publication;
+- and architecture updates resulting from future extensions of the laboratory.
