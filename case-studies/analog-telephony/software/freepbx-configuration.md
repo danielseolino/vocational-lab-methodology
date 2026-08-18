@@ -78,6 +78,24 @@ The following example shows an individual analog extension configured using DAHD
 
 ---
 
+## SIP / VoIP Extensions
+
+SIP extensions are configured on the same PBX server used to provide the analog telephone service.
+
+The implemented system includes preconfigured IP telephone extensions alongside the 24 analog FXS extensions. This allows analog and IP endpoints to communicate through the same Asterisk/FreePBX environment.
+
+![FreePBX Analog and SIP Extensions](freepbx-analog-sip-extensions.png)
+
+*Figure 4. FreePBX extension configuration showing analog channels and preconfigured SIP/IP telephone extensions within the same PBX environment.*
+
+For the Analog Telephony Laboratory, students are not required to configure the VoIP infrastructure. The IP phones are preconfigured and are used as functional verification endpoints.
+
+After completing the analog installation, students can place calls between the student-installed analog telephone and a VoIP telephone connected to the laboratory network.
+
+This provides immediate functional confirmation that the complete student-installed analog service path is operational.
+
+---
+
 ## Internal Call Environment
 
 The laboratory operates as a private internal telephone system.
