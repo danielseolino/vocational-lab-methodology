@@ -37,7 +37,7 @@ The first documented case study examines an analog telecommunications learning e
 
 The laboratory allows students to progressively construct a telecommunications service path and verify their work through functional communication.
 
-[Explore the Analog Telephony Case Study](case-studies/analog-telephony/)
+[Explore the Analog Telephony Case Study](case-studies/analog-telephony/index.qmd)
 
 ## Project Documentation
 
