@@ -1,0 +1,45 @@
+---
+title: "Optional Learning Activities"
+subtitle: "Complementary Telecommunications Activities"
+---
+
+# Optional Learning Activities
+
+These complementary learning activities extend the Analog Telephony Laboratory beyond the core service-path sequence.
+
+They are part of the broader instructional module but are documented separately because they develop additional telecommunications competencies rather than representing required stages of the primary analog telephone service path.
+
+The core laboratory sequence focuses on:
+
+**Customer Premises → Distribution → Outside Plant → Functional Service**
+
+The activities presented here extend that environment into additional telecommunications systems and applications.
+
+## Coaxial Cable Distribution
+
+This activity introduces students to coaxial cable installation and distribution.
+
+Students perform practical tasks including:
+
+- installation of coaxial cable between the student workspace and the distribution splitter;
+- termination of the cable with a male coaxial connector;
+- installation of a faceplate with a female coaxial connector;
+- testing of the completed installation.
+
+The activity complements the twisted-pair and structured-cabling activities by exposing students to another physical medium used in telecommunications distribution.
+
+[Open Learning Activity (PDF)](coaxial-cable-distribution.pdf){.external target="_blank"}
+
+## Future Optional Activities
+
+Additional activities may be incorporated into this section as the laboratory environment evolves.
+
+These activities can extend the instructional environment without modifying the core Analog Telephony Laboratory sequence.
+
+## Related Documentation
+
+- [Learning Activities](../index.qmd)
+- [Architecture](../../architecture/index.qmd)
+- [Hardware](../../hardware/index.qmd)
+- [Software](../../software/index.qmd)
+- [Return to Analog Telephony Laboratory](../../index.qmd)
