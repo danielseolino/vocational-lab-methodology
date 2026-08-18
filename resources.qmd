@@ -1,0 +1,73 @@
+---
+title: "Resources"
+subtitle: "Technical and Educational Resources"
+---
+
+# Resources
+
+This section provides access to technical and educational resources developed and documented through the Vocational Laboratory Methodology project.
+
+The resources are intended to support educators, technical instructors, and institutions interested in adapting the documented laboratory environments to their own instructional contexts.
+
+---
+
+## Laboratory Documentation
+
+Resources associated with each case study may include:
+
+- laboratory activity documents;
+- system architecture diagrams;
+- hardware documentation;
+- software configuration examples;
+- implementation photographs;
+- testing and verification procedures;
+- replication guidance;
+- and supporting technical information.
+
+---
+
+## Analog Telephony Laboratory
+
+The Analog Telephony Laboratory currently provides documentation covering:
+
+### Architecture
+
+System diagrams illustrating the relationship between the laboratory PBX, simulated outside-plant infrastructure, student-installed cabling, distribution systems, and functional verification.
+
+[View Architecture Documentation](case-studies/analog-telephony/architecture/)
+
+### Hardware
+
+Documentation of the actual equipment used to implement the laboratory, including the PBX server, analog telephony interface, FXS modules, distribution hardware, network equipment, and implementation photographs.
+
+[View Hardware Documentation](case-studies/analog-telephony/hardware/)
+
+### Software
+
+Documentation of the Linux, Asterisk, FreePBX, DAHDI, analog extensions, and SIP/VoIP environment supporting the laboratory.
+
+[View Software Documentation](case-studies/analog-telephony/software/)
+
+### Learning Activities
+
+Original instructional activities demonstrating how students progressively construct, terminate, distribute, test, and operate telecommunications infrastructure.
+
+[View Learning Activities](case-studies/analog-telephony/learning-activities/)
+
+---
+
+## Replication
+
+The project is designed around adaptation rather than exact duplication.
+
+Specific hardware models documented in the case studies represent the equipment available in the original implementation. Equivalent hardware, software, and infrastructure may be substituted according to local availability and instructional requirements.
+
+Future resources will include additional replication guidance and implementation cost information.
+
+---
+
+## Open Educational Approach
+
+Where appropriate, project documentation and instructional resources are made publicly accessible to support knowledge sharing among vocational educators.
+
+Users should verify equipment requirements, applicable technical standards, institutional policies, and safety requirements before adapting any activity to their own learning environment.
