@@ -1,0 +1,59 @@
+---
+title: "About"
+subtitle: "About the Project and Author"
+---
+
+# About the Project
+
+**Vocational Laboratory Methodology** is an ongoing project focused on documenting practical approaches for transforming authentic industry scenarios into accessible hands-on learning environments for vocational education.
+
+The project combines vocational teaching practice, technical implementation, educational technology, and applied research.
+
+Its purpose is not to introduce new telecommunications or industrial technologies, but to examine how existing technologies and workplace practices can be adapted into meaningful learning experiences.
+
+---
+
+## Daniel W. Seolino
+
+Daniel W. Seolino is a vocational educator working in telecommunications and electrical training.
+
+His work focuses on developing hands-on learning environments that connect technical theory with authentic installation, configuration, testing, troubleshooting, and operational tasks.
+
+The laboratory implementations documented through this project emerge from practical teaching environments and are progressively documented as case studies for educational reflection, replication, and research.
+
+---
+
+## Areas of Interest
+
+Current areas of professional and research interest include:
+
+- vocational and technical education;
+- telecommunications education;
+- educational technology;
+- industry-based laboratory development;
+- structured cabling and network infrastructure;
+- analog and IP telephony;
+- cellular telecommunications;
+- industrial automation;
+- and technology-supported vocational learning.
+
+---
+
+## Academic and Professional Profiles
+
+**ORCID:**  
+[0009-0009-2232-9169](https://orcid.org/0009-0009-2232-9169)
+
+**GitHub:**  
+[danielseolino](https://github.com/danielseolino)
+
+**LinkedIn:**  
+[Daniel W. Seolino](https://www.linkedin.com/in/seolino/)
+
+---
+
+## Project Repository
+
+The complete technical documentation, source files, diagrams, laboratory materials, and development history are maintained in the public GitHub repository.
+
+[View the Vocational Laboratory Methodology repository](https://github.com/danielseolino/vocational-lab-methodology)
