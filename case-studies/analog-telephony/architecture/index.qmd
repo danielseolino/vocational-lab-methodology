@@ -1,0 +1,41 @@
+---
+title: "Architecture"
+subtitle: "Analog Telephony Laboratory System Architecture"
+---
+
+# Architecture
+
+This section presents the technical and educational architecture of the Analog Telephony Laboratory.
+
+The diagrams illustrate how the laboratory PBX generates analog telephone service, how that service is routed through a simulated outside-plant environment, and how students build and test the customer-premises infrastructure.
+
+## End-to-End Service Path
+
+![Analog Telephony Laboratory End-to-End Service Path](analog-telephony-service-path.png)
+
+The service path represents:
+
+**PBX Service Source → Simulated Outside Plant → Student Installation → Functional Verification**
+
+The laboratory PBX generates the analog service through FXS interfaces. That service is distributed through the laboratory infrastructure and routed through components representing the outside plant before reaching the student-installed customer-premises infrastructure.
+
+## PBX Architecture
+
+![PBX Analog Telephony Architecture](pbx-analog-telephony-architecture.png)
+
+The PBX architecture integrates the Linux server, Asterisk/FreePBX, analog telephony interface, FXS modules, and 25-pair distribution infrastructure.
+
+This configuration provides multiple analog extensions without requiring connection to the public switched telephone network.
+
+## Mobile Training Platform
+
+![Mobile Analog VoIP Training Platform](mobile-analog-voip-training-platform.png)
+
+The mobile training platform integrates the telecommunications server, analog interface, Ethernet/PoE network, wireless connectivity, telephone distribution, and functional endpoints into a transportable instructional system.
+
+## Related Documentation
+
+- [Hardware](../hardware/index.qmd)
+- [Software](../software/index.qmd)
+- [Learning Activities](../learning-activities/index.qmd)
+- [Return to Analog Telephony Laboratory](../index.qmd)
