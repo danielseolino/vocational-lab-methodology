@@ -1,0 +1,76 @@
+---
+title: "Research"
+subtitle: "Research Activities and Methodological Development"
+---
+
+# Research
+
+The Vocational Laboratory Methodology project is also intended to support research into the design, adaptation, and implementation of authentic learning environments in vocational education.
+
+The research component complements the documented case studies by examining broader questions related to instructional design, available resources, laboratory development, technology integration, and the transformation of workplace practices into learning activities.
+
+---
+
+## Current Research Direction
+
+The project is exploring how vocational educators transform authentic industry scenarios into accessible hands-on learning environments.
+
+Areas of interest include:
+
+- barriers encountered when developing practical laboratory activities;
+- equipment and infrastructure limitations;
+- reuse and adaptation of existing technologies;
+- maintenance and sustainability of training environments;
+- transformation of workplace tasks into instructional activities;
+- functional verification of student work;
+- and the role of technology in supporting vocational learning.
+
+---
+
+## Teacher Survey
+
+A short survey is being developed to gather perspectives from vocational educators regarding the design and implementation of practical learning environments.
+
+The survey will examine factors such as:
+
+- equipment availability;
+- infrastructure requirements;
+- budget constraints;
+- time required to develop laboratory activities;
+- access to practical examples and instructional resources;
+- technology updates;
+- and professional development needs.
+
+Survey results may be used to contextualize future research and publications related to vocational laboratory development.
+
+---
+
+## Relationship to the Case Studies
+
+The documented laboratory case studies were developed independently of the survey research.
+
+The purpose of the research component is not to retrospectively justify existing implementations.
+
+Instead, the case studies provide documented examples of practical approaches already developed in vocational education, while the research investigates whether similar challenges and needs are experienced by other educators.
+
+This distinction allows the project to maintain a clear separation between:
+
+**Practice → Documentation → Reflection → Research**
+
+rather than presenting the research as the original cause of the existing laboratory implementations.
+
+---
+
+## Publications
+
+Technical and academic publications associated with the project will be added here as they are developed.
+
+Planned publication themes may include:
+
+- low-cost development of industry-based vocational laboratories;
+- analog and IP telephony learning environments;
+- cellular telecommunications training environments;
+- industrial automation laboratory design;
+- and the relationship between authentic technical tasks and vocational learning.
+
+Publication records will also be connected to the author's ORCID profile when appropriate.
