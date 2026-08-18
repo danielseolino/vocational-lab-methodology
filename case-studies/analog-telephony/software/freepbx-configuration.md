@@ -55,29 +55,26 @@ This approach creates a controlled and repeatable environment in which students 
 
 DAHDI provides the interface between Asterisk and the Digium analog telephony hardware.
 
-The Digium AEX2400 interface card and S400M FXS modules provide the physical analog interfaces used by the laboratory.
+The implemented system provides 24 FXS ports, which are recognized by the PBX as DAHDI channels. These physical interfaces provide the analog telephone service distributed through the laboratory infrastructure.
 
-From the PBX, these interfaces are associated with analog extensions that are subsequently distributed to the laboratory cabling system.
+![FreePBX DAHDI FXS Ports](freepbx-dahdi-fxs-ports.png)
 
----
+*Figure 1. DAHDI hardware configuration showing the 24 FXS ports available in the implemented laboratory PBX.*
 
-## SIP / VoIP Extensions
+### Implemented Analog Extensions
 
-SIP extensions are configured on the same PBX server.
+The physical FXS channels are associated with individual analog PBX extensions.
 
-Preconfigured VoIP telephones connected to the laboratory Ethernet network register with the PBX and can communicate with the analog extensions.
+![FreePBX Analog Extensions](freepbx-analog-extensions.png)
 
-For the Analog Telephony Laboratory, students are not required to configure the VoIP infrastructure. The VoIP endpoint is provided as an operational testing resource.
+*Figure 2. Analog extensions configured in the laboratory FreePBX system.*
 
-This allows students to verify their completed analog installation by placing calls between:
+The following example shows an individual analog extension configured using DAHDI technology and associated with physical Channel 1.
 
-> Student-Installed Analog Telephone  
-> ↕  
-> PBX / Asterisk  
-> ↕  
-> Preconfigured VoIP Telephone
+![FreePBX DAHDI Extension Configuration](freepbx-dahdi-extension-config.png)
 
-The successful completion of a call provides immediate functional confirmation that the student-installed analog circuit is operational.
+*Figure 3. Example of an analog PBX extension associated with DAHDI Channel 1.*
+
 
 ---
 
