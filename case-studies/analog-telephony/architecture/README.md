@@ -5,20 +5,21 @@ This directory contains technical and educational architecture diagrams for the 
 The diagrams document both the representation of the telecommunications service path used for student learning activities and the supporting laboratory infrastructure used to provide analog telephone service in a controlled vocational education environment.
 
 ---
+## Figure 1 — Analog Telephony Laboratory: End-to-End Service Path
 
-## Figure 1 — Analog Telephony Laboratory: Service Path and Learning Environment
+![Analog Telephony Laboratory End-to-End Service Path](analog-telephony-service-path.png)
 
-![Analog Telephony Laboratory Service Path](analog-telephony-service-path.png)
+**Figure 1.** End-to-end architecture of the Analog Telephony Laboratory, showing how analog telephone service generated locally by the PBX is routed through a simulated outside-plant environment and into infrastructure installed by students.
 
-**Figure 1.** Analog Telephony Laboratory service path and learning environment, illustrating the relationship between outside-plant infrastructure, student-installed telecommunications infrastructure, and the supporting laboratory system.
+The PBX provides FXS analog service through the Digium AEX2400 interface and S400M FXS modules. This service is routed through a 25-pair distribution system to a simulated outside plant consisting of a SLIC/distribution point, aerial drop cable, and NID.
 
-The diagram represents the progression from outside-plant infrastructure through the NID, MDF, IDF, customer-premises cabling, and analog telephone installation.
+From the NID, students build and terminate the customer-side infrastructure through the MDF and IDF. The learning activity includes both an analog telecommunications path (e.g., Cat 3 to an RJ-11 outlet) and a network path (Cat 6 to an RJ-45 outlet), reflecting the coexistence of legacy and IP-based telecommunications infrastructure.
 
-It also illustrates how the laboratory PBX and a preconfigured VoIP endpoint provide functional service verification after the student completes the analog installation.
+After completing the installation, students connect an analog telephone to the line they installed. A preconfigured SIP/VoIP endpoint, operating through the laboratory network and PBX, is then used to place and receive calls with the student-installed analog extension. In this activity, VoIP is used as a functional verification tool rather than as the primary subject of instruction.
 
-The general learning sequence represented by the environment is:
+The complete learning sequence represented by the laboratory is:
 
-**Build → Terminate → Cross-connect → Test → Use**
+**Service Generation → Simulated Outside Plant → Build → Terminate → Cross-Connect → Test → Functional Use**
 
 ---
 
