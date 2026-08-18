@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Vocational Laboratory Methodology"
+  description: "Practical resources for transforming industry scenarios into accessible hands-on learning environments in vocational education."
+
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: case-studies.qmd
+        text: Case Studies
+      - href: research.qmd
+        text: Research
+      - href: resources.qmd
+        text: Resources
+      - href: about.qmd
+        text: About
+
+  page-footer:
+    left: "© 2026 Daniel W. Seolino"
+    right: "Vocational Laboratory Methodology"
+
+format:
+  html:
+    toc: true
+    theme: cosmo
