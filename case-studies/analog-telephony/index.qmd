@@ -35,25 +35,25 @@ Students work with components and tasks including:
 
 View the service-path diagrams, PBX architecture, and physical mobile laboratory implementation.
 
-[Explore Architecture](architecture/)
+[Explore Architecture](architecture/index.qmd)
 
 ### Hardware
 
 View the PBX server, analog telephony interface, FXS hardware, network equipment, distribution interface, and implementation photographs.
 
-[Explore Hardware](hardware/)
+[Explore Hardware](hardware/index.qmd)
 
 ### Software
 
 View the Linux, Asterisk, FreePBX, DAHDI, analog-extension, and SIP/VoIP environment.
 
-[Explore Software](software/)
+[Explore Software](software/index.qmd)
 
 ### Learning Activities
 
 View the instructional activities used to progressively build and test the telecommunications infrastructure.
 
-[Explore Learning Activities](learning-activities/)
+[Explore Learning Activities](learning-activities/index.qmd)
 
 ## Educational Approach
 
