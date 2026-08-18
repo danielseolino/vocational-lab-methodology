@@ -23,9 +23,10 @@ The objective is to demonstrate that an operational telecommunications training 
 
 ---
 
-![Mobile Analog Telephony Laboratory](mobile-lab-setup.jpeg)
 
 ## PBX Server
+
+![Mobile Analog Telephony Laboratory](mobile-lab-setup.jpeg)
 
 The laboratory PBX is hosted on a repurposed **Dell Precision T3600 workstation**.
 
@@ -39,9 +40,10 @@ The Dell Precision T3600 is the equipment used in this implementation; however, 
 
 ---
 
-![Digium AEX2400 Analog Interface](digium-aex2400-analog-interface.jfif)
 
 ## Analog Telephony Interface
+
+![Digium AEX2400 Analog Interface](digium-aex2400-analog-interface.jfif)
 
 Analog telephone service is generated through a **Digium AEX2400 PCIe telephony interface card** installed in the PBX server.
 
@@ -55,9 +57,10 @@ The specific Digium hardware represents the equipment available for this impleme
 
 ---
 
-![25-Pair Distribution and Protection Interface](25-pair-distribution-interface.jpeg)
 
 ## 25-Pair Distribution Interface
+
+![25-Pair Distribution and Protection Interface](25-pair-distribution-interface.jpeg)
 
 A 25-pair telecommunications cable connects the analog telephony interface to the laboratory distribution system.
 
@@ -84,9 +87,10 @@ This approach contributes directly to the low-cost and maintainable design philo
 
 ---
 
-![EnGenius EGS7228FP PoE+ Switch](engenius-egs7228fp-poe-switch.jfif)
 
 ## Ethernet and PoE Infrastructure
+
+![EnGenius EGS7228FP PoE+ Switch](engenius-egs7228fp-poe-switch.jfif)
 
 An **EnGenius EGS7228FP PoE+ switch** provides Ethernet connectivity for the IP portion of the laboratory.
 
