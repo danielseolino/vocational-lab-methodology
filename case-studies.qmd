@@ -1,0 +1,46 @@
+---
+title: "Case Studies"
+subtitle: "Documented Vocational Laboratory Implementations"
+---
+
+# Laboratory Case Studies
+
+The case studies document how authentic technical scenarios can be adapted into practical learning environments for vocational education.
+
+Each case study connects the educational activities with the technical infrastructure that supports them, including system architecture, hardware, software, implementation practices, and functional verification.
+
+The objective is not to prescribe a single laboratory configuration, but to provide documented examples that other educators may adapt according to their curriculum, available equipment, infrastructure, and institutional context.
+
+---
+
+## Analog Telephony Laboratory
+
+The Analog Telephony Laboratory is the first fully documented case study in the project.
+
+It recreates the relationship between outside-plant telecommunications infrastructure, customer-premises installation, distribution systems, analog telephone service, and functional communication within a controlled vocational learning environment.
+
+Students progressively work with:
+
+- outside-plant service representation;
+- Network Interface Device (NID);
+- MDF and IDF distribution;
+- Cat 3 analog telephone cabling;
+- Cat 6 network cabling;
+- RJ-11 and RJ-45 outlets;
+- analog telephone endpoints;
+- PBX-generated analog service;
+- functional call verification using preconfigured VoIP endpoints.
+
+The laboratory combines student-installed infrastructure with supporting telecommunications systems so that completed work can be tested as part of a functioning service.
+
+[**Explore the Analog Telephony Laboratory →**](case-studies/analog-telephony/)
+
+---
+
+## Future Case Studies
+
+The methodology is intended to support additional vocational laboratory implementations.
+
+Future documented case studies may include telecommunications, networking, automation, cellular communications, and other technical learning environments.
+
+As new case studies are developed, they will be added here together with the technical and educational documentation required to understand and replicate the learning environment.
