@@ -19,7 +19,7 @@ The current laboratory sequence includes three core activities.
 
 Students work with telecommunications distribution infrastructure and develop the physical pathway required to deliver telephone service through the laboratory.
 
-[View Learning Activity](structured-cabling-and-telephony-distribution.pdf)
+[View Learning Activity](structured-cabling-and-telephony-distribution.pdf){target="_blank"}
 
 ### Customer Premises Infrastructure
 
@@ -27,7 +27,7 @@ Students construct and terminate the customer-premises portion of the installati
 
 The activity integrates analog telephony infrastructure with network cabling, allowing the student work area to support both analog and network services.
 
-[View Learning Activity](customer-premises-infrastructure.pdf)
+[View Learning Activity](customer-premises-infrastructure.pdf){target="_blank"}
 
 ### Aerial Drop and Network Interface
 
@@ -35,7 +35,7 @@ Students reproduce the final portion of the service path between the simulated o
 
 The activity introduces the aerial drop and Network Interface Device (NID), completing the end-to-end representation of the analog telephone service path.
 
-[View Learning Activity](aerial-drop-and-network-interface.pdf)
+[View Learning Activity](aerial-drop-and-network-interface.pdf){target="_blank"}
 
 ## Functional Verification
 
