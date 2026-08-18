@@ -1,0 +1,63 @@
+---
+title: "Learning Activities"
+subtitle: "Hands-On Analog Telephony Laboratory Activities"
+---
+
+# Learning Activities
+
+The learning activities translate the laboratory architecture into practical student tasks based on telecommunications installation practices.
+
+Rather than interacting directly with the PBX configuration, students work primarily with the physical infrastructure: installing, terminating, distributing, testing, and verifying telecommunications circuits.
+
+The supporting PBX and network infrastructure provide the services required to make these installations operational.
+
+## Learning Sequence
+
+The current laboratory sequence includes three core activities.
+
+### Structured Cabling and Telephony Distribution
+
+Students work with telecommunications distribution infrastructure and develop the physical pathway required to deliver telephone service through the laboratory.
+
+[View Learning Activity](structured-cabling-and-telephony-distribution.pdf)
+
+### Customer Premises Infrastructure
+
+Students construct and terminate the customer-premises portion of the installation, including the telecommunications outlets and associated cabling.
+
+The activity integrates analog telephony infrastructure with network cabling, allowing the student work area to support both analog and network services.
+
+[View Learning Activity](customer-premises-infrastructure.pdf)
+
+### Aerial Drop and Network Interface
+
+Students reproduce the final portion of the service path between the simulated outside plant and the customer premises.
+
+The activity introduces the aerial drop and Network Interface Device (NID), completing the end-to-end representation of the analog telephone service path.
+
+[View Learning Activity](aerial-drop-and-network-interface.pdf)
+
+## Functional Verification
+
+An important element of the laboratory methodology is that the student installation produces an observable functional result.
+
+After completing the required infrastructure, students can verify the installed analog circuit by placing calls through the laboratory PBX.
+
+Preconfigured SIP/VoIP phones provide an additional endpoint that allows communication between the IP network and the student-installed analog telephone line.
+
+This creates a direct relationship between the physical installation task and the operational telecommunications service.
+
+## Optional Activities
+
+Additional activities can be incorporated without changing the core laboratory sequence.
+
+These activities may extend the learning environment to related telecommunications technologies or provide additional exploration of the supporting infrastructure.
+
+[Explore Optional Activities](optional-activities/readme.md)
+
+## Related Documentation
+
+- [Architecture](../architecture/index.qmd)
+- [Hardware](../hardware/index.qmd)
+- [Software](../software/index.qmd)
+- [Return to Analog Telephony Laboratory](../index.qmd)
