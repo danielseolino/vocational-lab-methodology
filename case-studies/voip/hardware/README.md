@@ -4,6 +4,12 @@ The VoIP Multi-Network Laboratory uses a combination of centralized instructor-m
 
 The hardware architecture was designed to create a realistic multi-network VoIP environment while using readily available and reusable equipment.
 
+## Central Server Cart
+
+![VoIP Laboratory — Central Server Cart](voip-central-server-cart.png)
+
+*Figure 1. Central instructor-managed VoIP laboratory infrastructure. The mobile platform integrates the FreePBX/Asterisk server, Ethernet switching, routing, wireless connectivity, SIP endpoint, and local administration console used to provide the shared laboratory/provider network for the student VoIP environments.*
+
 ## Central Laboratory Infrastructure
 
 The central VoIP laboratory is installed on a mobile cart and provides the shared network and telephony infrastructure used by the student systems.
