@@ -44,6 +44,12 @@ A physical SIP/IP telephone connected to the central system provides an endpoint
 
 Each student receives an individual equipment set used to construct an independent VoIP network.
 
+![VoIP Laboratory — Student Equipment Set](voip-student-equipment-set.png)
+
+*Figure 2. Individual student equipment set used in the VoIP laboratory. Each student receives a laptop computer, dedicated router, and physical SIP/IP telephone to build and operate an independent VoIP network.*
+
+The laptop also hosts the student's virtualized FreePBX environment and Zoiper softphone, while a mobile device can be added as an additional SIP endpoint.
+
 The set includes:
 
 ### Laptop Computer
