@@ -10,6 +10,10 @@ This architecture allows students to work with routing, NAT, SIP trunks, PBX ser
 
 ## Figure 1 — Layered IP Network Architecture
 
+![VoIP Multi-Network Laboratory — Layered IP Network Architecture](voip-layered-network-architecture.png)
+
+*Figure 1. Layered IP network architecture of the VoIP laboratory, showing the separation between the school/enterprise network, the laboratory/provider network, and the individual student LANs.*
+
 The laboratory uses three private IPv4 network layers:
 
 - **School / Enterprise Network:** `10.0.0.0/8`
@@ -43,8 +47,11 @@ The laboratory also provides an opportunity to explain the historical IPv4 class
 Modern networks use CIDR addressing rather than classful addressing, but the layered laboratory architecture provides a useful context for explaining both concepts.
 
 ---
+## Figure 2 — Cross-Module Analog–VoIP Integration
 
-## Figure 2 — Central VoIP Infrastructure
+![Cross-Module Integration — Analog Telephony and VoIP](analog-voip-cross-module-integration.png)
+
+*Figure 2. Cross-module integration between the Analog Telephony and VoIP laboratories. The same infrastructure supports two complementary learning perspectives, with SIP trunking providing interoperability between the systems.*
 
 The instructor-managed mobile cart provides the shared provider/interconnection infrastructure used by all student laboratories.
 
