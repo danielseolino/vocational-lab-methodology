@@ -39,6 +39,26 @@ The laboratory allows students to progressively construct a telecommunications s
 
 [Explore the Analog Telephony Case Study](case-studies/analog-telephony/index.qmd)
 
+### VoIP Multi-Network Laboratory
+
+The second documented case study examines an IP telephony learning environment in which each student builds and operates an independent routed VoIP network.
+
+The laboratory integrates:
+
+- a dedicated student router and private LAN;
+- a virtualized Linux/FreePBX/Asterisk PBX;
+- physical SIP/IP telephones;
+- laptop and mobile softphones;
+- SIP extensions and endpoint registration;
+- SIP trunks and inbound/outbound call routing;
+- NAT and port forwarding;
+- PBX services including recordings, announcements, ring groups, queues, time conditions, and IVR;
+- interconnection with the Analog Telephony Laboratory.
+
+A central instructor-managed VoIP platform provides the shared laboratory/provider network and interconnection services, while each student remains responsible for configuring and troubleshooting their own PBX environment.
+
+[Explore the VoIP Multi-Network Laboratory](case-studies/voip/index.qmd)
+
 ## Project Documentation
 
 Each case study may include:
@@ -58,7 +78,7 @@ The objective is to make the implementation understandable and adaptable rather 
 
 This project is an evolving collection of vocational laboratory case studies and supporting research.
 
-Future case studies will explore additional telecommunications, networking, automation, and related technical learning environments.
+Additional case studies will explore telecommunications, networking, automation, cellular communications, and related technical learning environments.
 
 ---
 
