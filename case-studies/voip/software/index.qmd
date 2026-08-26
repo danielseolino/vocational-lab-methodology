@@ -1,0 +1,91 @@
+---
+title: "Software"
+subtitle: "VoIP Multi-Network Laboratory Software Environment"
+---
+
+# Software
+
+The VoIP Multi-Network Laboratory combines open-source PBX software, virtualization, and SIP softphones so each student can build and operate an independent VoIP environment.
+
+Unlike the central instructor-managed infrastructure, each student deploys and configures their own PBX inside a virtual machine. PBX deployment, endpoint registration, routing, interconnection, and troubleshooting therefore become part of the learning process.
+
+## Software Environment
+
+The principal components are:
+
+- Linux operating system;
+- Asterisk telephony engine;
+- FreePBX management interface;
+- VirtualBox virtualization;
+- Zoiper SIP softphone;
+- standard web and network administration tools.
+
+## Linux, Asterisk, and FreePBX
+
+Linux hosts the telephony services. Asterisk provides call processing, while FreePBX provides the web-based administration interface.
+
+Students configure SIP extensions, endpoint registration, SIP trunks, inbound and outbound routes, recordings, announcements, ring groups, queues, time conditions, IVR, and other PBX functions introduced through the activities.
+
+The objective is to connect PBX configuration decisions to observable endpoint behavior and call flow rather than simply navigate configuration menus.
+
+## VirtualBox
+
+VirtualBox allows every student to operate an independent PBX on the assigned laptop. The virtual machine is connected to the student's private `192.168.1.0/24` LAN and communicates with the physical IP phone and software endpoints while remaining behind the student's router.
+
+This makes it possible for an entire class to operate multiple complete PBX systems simultaneously without requiring a physical server for every student.
+
+## Zoiper Softphone
+
+Zoiper provides a flexible SIP endpoint on the laptop and mobile device. During advanced activities, an endpoint can also operate from another student's network to test external service reachability.
+
+## Central and Student PBX Roles
+
+### Central PBX
+
+The instructor-managed FreePBX server operates on `172.16.0.0/16` and provides shared services, provider-side extensions, SIP trunk interconnection, external calling targets, and integration with other laboratory environments.
+
+### Student PBX
+
+Each student operates an independent FreePBX instance within `192.168.1.0/24` and is responsible for endpoints, trunks, services, and routing. This creates a simplified provider/customer relationship and requires troubleshooting of both local and inter-network communication.
+
+## SIP Extensions and Endpoint Registration
+
+Students create SIP extensions and register physical IP telephones and software endpoints. Successful registration provides immediate functional evidence that PBX configuration, IP addressing, endpoint settings, and the network path are operating together.
+
+Internal calls then verify the complete local VoIP system.
+
+## SIP Trunks and Call Routing
+
+SIP trunks connect independently managed PBX systems. They can link student PBXs to the central infrastructure, support selected student-to-student interconnection, connect the VoIP laboratory to the Analog Telephony Laboratory, and support future telecommunications environments.
+
+Inbound and outbound routes associate dialed numbers with the appropriate trunk and destination, allowing trunk configuration to be taught as part of a complete service path.
+
+## NAT and Port Forwarding Activity
+
+Each student PBX normally resides behind the NAT boundary created by the student's router. After local operation is verified, a student creates an extension for a classmate on another network.
+
+The hosting student must configure the router so the required SIP service can reach the PBX externally. The activity demonstrates the difference between a service functioning locally, being addressable from another network, and actually being reachable through NAT.
+
+## PBX Service Activities
+
+After basic calling and trunking are operational, the platform supports progressively more advanced services including system recordings, announcements, ring groups, queues, time conditions, and IVR.
+
+## Cross-Module Analog/VoIP Integration
+
+The central VoIP PBX can connect to the Analog Telephony Laboratory through a SIP trunk. In the VoIP module, the analog system becomes an external telecommunications environment that students reach through their IP-based infrastructure.
+
+This reverses the instructional relationship used in the Analog module and demonstrates interoperability from both perspectives while reusing the same laboratory assets.
+
+## Functional Verification
+
+Configuration is verified through actual telecommunications functions, including successful endpoint registration, internal calls, calls through SIP trunks, inbound/outbound routing, registration from another routed network, and calls between VoIP and analog environments.
+
+## Replication Considerations
+
+Equivalent PBX, virtualization, and SIP endpoint software may be substituted provided that the environment preserves independent student PBX operation, endpoint registration, routed LAN/WAN separation, SIP trunking, call routing, NAT/port-forwarding experimentation, and end-to-end functional verification.
+
+## Related Documentation
+
+- [Architecture](../architecture/index.qmd)
+- [Hardware](../hardware/index.qmd)
+- [Return to VoIP Laboratory](../index.qmd)
