@@ -1,0 +1,47 @@
+---
+title: "VoIP Multi-Network Laboratory"
+subtitle: "Independent Student PBX Networks with Shared Provider Infrastructure"
+---
+
+# VoIP Multi-Network Laboratory
+
+This case study documents a hands-on VoIP learning environment designed for vocational telecommunications education.
+
+The laboratory uses a multi-network architecture in which each student builds and manages an independent VoIP network while a central instructor-managed infrastructure provides shared provider and interconnection services.
+
+Each student works with a dedicated router, laptop, virtual PBX environment, physical IP telephone, and softphone endpoints. This allows students to configure and troubleshoot a complete VoIP system rather than interacting only with a preconfigured centralized PBX.
+
+## Learning Environment
+
+The laboratory integrates practical concepts including IPv4 addressing, LAN/WAN segmentation, routing, NAT, virtualized PBX deployment, SIP extensions, physical and software endpoints, SIP trunks, call routing, PBX services, port forwarding, and analog/VoIP interoperability.
+
+## Layered Network Model
+
+- **School / Enterprise Network:** `10.0.0.0/8`
+- **VoIP Laboratory / Provider Network:** `172.16.0.0/16`
+- **Student / Customer LAN:** `192.168.1.0/24`
+
+Each student router connects its WAN interface to the shared laboratory/provider network while creating an isolated private LAN for the student's PBX and VoIP endpoints.
+
+## Student Laboratory Environment
+
+Each student operates a complete routed VoIP environment using a laptop, dedicated router, physical SIP/IP telephone, VirtualBox PBX, laptop softphone, and mobile softphone endpoint.
+
+## Central VoIP Infrastructure
+
+A separate instructor-managed mobile platform provides the shared provider/interconnection network through a Linux/FreePBX/Asterisk server, Ethernet switching, routing infrastructure, and SIP testing endpoint.
+
+## Advanced Connectivity
+
+After the individual systems are operational, students explore NAT and port forwarding by allowing an endpoint on another network to register to an extension hosted on their PBX.
+
+## Cross-Module Integration
+
+When the same cohort completes both the Analog Telephony and VoIP modules, the two laboratory environments can be interconnected through a SIP trunk. The instructional roles are intentionally reversed: analog infrastructure is tested through VoIP in the Analog module, while VoIP infrastructure can reach analog endpoints in the VoIP module.
+
+## Documentation
+
+- [Architecture](architecture/index.qmd)
+- [Hardware](hardware/index.qmd)
+- [Software](software/index.qmd)
+- [Return to Case Studies](../../case-studies.qmd)
