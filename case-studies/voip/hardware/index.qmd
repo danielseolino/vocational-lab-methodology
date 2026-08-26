@@ -1,0 +1,43 @@
+---
+title: "Hardware"
+subtitle: "VoIP Multi-Network Laboratory Hardware Environment"
+---
+
+# Hardware
+
+The laboratory combines centralized instructor-managed infrastructure with individual student equipment sets, using reusable and readily available networking and computing equipment.
+
+## Central Server Cart
+
+![VoIP Laboratory — Central Server Cart](voip-central-server-cart.png)
+
+*Figure 1. Central mobile platform integrating the FreePBX/Asterisk server, Ethernet switching, routing, SIP endpoint, and local administration console.*
+
+The central platform provides the shared provider/interconnection network. It includes a dedicated Linux/FreePBX/Asterisk server, a multiport Ethernet switch, a laboratory router separating the school network from `172.16.0.0/16`, and a physical SIP/IP phone for demonstrations and testing.
+
+## Student Equipment Set
+
+![VoIP Laboratory — Student Equipment Set](voip-student-equipment-set.png)
+
+*Figure 2. Student equipment set with laptop, dedicated router, and physical SIP/IP telephone.*
+
+Each student receives:
+
+- a laptop used for configuration, VirtualBox, PBX administration, and a softphone;
+- a dedicated router providing WAN/LAN separation, DHCP, NAT, routing, and port forwarding;
+- a physical SIP/IP desk telephone;
+- and a mobile device that can run an additional SIP softphone.
+
+The student therefore operates a complete independent VoIP network rather than sharing a single classroom PBX.
+
+## Equipment Reuse and Replication
+
+The laboratory does not depend on a specialized commercial VoIP training platform. Standard computers, Ethernet switches, routers, IP phones, virtualization software, and open-source PBX software are combined to reproduce the technical functions required by the learning activities.
+
+Equivalent equipment can be substituted when it preserves the same student workflow and functional relationships.
+
+## Related Documentation
+
+- [Architecture](../architecture/index.qmd)
+- [Software](../software/index.qmd)
+- [Return to VoIP Laboratory](../index.qmd)
