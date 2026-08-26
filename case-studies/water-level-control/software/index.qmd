@@ -23,6 +23,8 @@ This prevents analog control from being treated as simply another ON/OFF input.
 
 ## Decision Logic
 
+![Water-level control ladder logic implemented in Connected Components Workbench.](../software-ladder.png){fig-alt="Water-level control PLC ladder logic in Connected Components Workbench" width="95%"}
+
 The PLC program is structured around three functional stages:
 
 1. **Input acquisition** — obtain the conditioned analog measurement.
