@@ -19,7 +19,8 @@ Students create the virtual machine that will host the PBX. The activity introdu
 
 **Primary function:** create the virtual computing environment required for the student's independent PBX.
 
-[**Download original Laboratory 1 document (.docx)**](Laboratory%201%20Configuring%20virtual%20box.docx){target="_blank"}
+[**View Laboratory 1 PDF**](Laboratory%201%20Configuring%20virtual%20box.pdf){target="_blank"}  
+[Download editable Laboratory 1 DOCX](Laboratory%201%20Configuring%20virtual%20box.docx){target="_blank"}
 
 ### Laboratory 2 — Install and Configure the PBX Platform
 
@@ -27,7 +28,8 @@ Students install the FreePBX-based PBX environment and perform the initial syste
 
 **Primary function:** deploy an operational PBX server that can be administered through the network.
 
-[**Download original Laboratory 2 document (.docx)**](Laboratory%202%20Elastix.docx){target="_blank"}
+[**View Laboratory 2 PDF**](Laboratory%202%20Elastix.pdf){target="_blank"}  
+[Download editable Laboratory 2 DOCX](Laboratory%202%20Elastix.docx){target="_blank"}
 
 ### Laboratory 3 — Create SIP Extensions
 
@@ -35,7 +37,8 @@ Students access FreePBX administration and create multiple SIP extensions, inclu
 
 **Primary function:** create subscriber identities and services inside the student's PBX.
 
-[**Download original Laboratory 3 document (.docx)**](Laboratory%203%20Setup%20the%20PBX%20%26%20the%20extensions.docx){target="_blank"}
+[**View Laboratory 3 PDF**](Laboratory%203%20Setup%20the%20PBX%20%26%20the%20extensions.pdf){target="_blank"}  
+[Download editable Laboratory 3 DOCX](Laboratory%203%20Setup%20the%20PBX%20%26%20the%20extensions.docx){target="_blank"}
 
 ## Phase 2 — Register Physical and Software Endpoints
 
@@ -45,7 +48,8 @@ Students configure a Zoiper softphone using one of the extensions created in Lab
 
 **Primary function:** connect a software endpoint to the PBX and verify SIP registration.
 
-[**Download original Laboratory 4 document (.docx)**](Laboratory%204%20Configuring%20zoiper.docx){target="_blank"}
+[**View Laboratory 4 PDF**](Laboratory%204%20Configuring%20zoiper.pdf){target="_blank"}  
+[Download editable Laboratory 4 DOCX](Laboratory%204%20Configuring%20zoiper.docx){target="_blank"}
 
 ### Laboratory 5 — Install an IP Phone
 
@@ -53,7 +57,8 @@ Students connect a physical SIP/IP telephone, identify its network address, acce
 
 **Primary function:** integrate a physical VoIP endpoint with the student's IP network and PBX.
 
-[**Download original Laboratory 5 document (.docx)**](Laboratory%205%20Installing%20IP%20Phone.docx){target="_blank"}
+[**View Laboratory 5 PDF**](Laboratory%205%20Installing%20IP%20Phone.pdf){target="_blank"}  
+[Download editable Laboratory 5 DOCX](Laboratory%205%20Installing%20IP%20Phone.docx){target="_blank"}
 
 At this point, students can verify local calling between physical and software endpoints before introducing inter-network services.
 
@@ -65,7 +70,8 @@ Students configure a SIP trunk between their PBX and the central laboratory/prov
 
 **Primary function:** establish the logical service connection between the student's private PBX and the shared laboratory infrastructure.
 
-[**Download original Laboratory 6 document (.docx)**](Laboratory%206%20Creating%20trunk.docx){target="_blank"}
+[**View Laboratory 6 PDF**](Laboratory%206%20Creating%20trunk.pdf){target="_blank"}  
+[Download editable Laboratory 6 DOCX](Laboratory%206%20Creating%20trunk.docx){target="_blank"}
 
 ### Laboratory 7 — Create an Outbound Route
 
@@ -73,7 +79,8 @@ Students create an outbound route and associate a dialing pattern with the SIP t
 
 **Primary function:** determine how external calls leave the student's PBX and which trunk carries them.
 
-[**Download original Laboratory 7 document (.docx)**](Laboratory%207%20Creating%20outbound%20routes.docx){target="_blank"}
+[**View Laboratory 7 PDF**](Laboratory%207%20Creating%20outbound%20routes.pdf){target="_blank"}  
+[Download editable Laboratory 7 DOCX](Laboratory%207%20Creating%20outbound%20routes.docx){target="_blank"}
 
 ### Laboratory 8 — Create an Inbound Route
 
@@ -81,7 +88,8 @@ Students configure how calls arriving from the provider/laboratory network are h
 
 **Primary function:** connect an externally received call to a destination inside the student's PBX.
 
-[**Download original Laboratory 8 document (.docx)**](Laboratory%208%20Create%20an%20inbound%20route.docx){target="_blank"}
+[**View Laboratory 8 PDF**](Laboratory%208%20Create%20an%20inbound%20route.pdf){target="_blank"}  
+[Download editable Laboratory 8 DOCX](Laboratory%208%20Create%20an%20inbound%20route.docx){target="_blank"}
 
 Together, Laboratories 6–8 create a complete inter-network calling path:
 
@@ -95,7 +103,8 @@ Students create a recorded welcome message for use by the PBX automated services
 
 **Primary function:** create customer-facing audio content for automated call handling.
 
-[**Download original Laboratory 9 document (.docx)**](Laboratory%209%20Generate%20a%20welcome%20message.docx){target="_blank"}
+[**View Laboratory 9 PDF**](Laboratory%209%20Generate%20a%20welcome%20message.pdf){target="_blank"}  
+[Download editable Laboratory 9 DOCX](Laboratory%209%20Generate%20a%20welcome%20message.docx){target="_blank"}
 
 ### Laboratory 10 — Upload the Recording
 
@@ -103,7 +112,8 @@ Students upload the previously created audio file into FreePBX System Recordings
 
 **Primary function:** convert an external audio asset into a PBX resource that can be referenced by call-processing applications.
 
-[**Download original Laboratory 10 document (.docx)**](Laboratory%2010%20Upload%20the%20wav%20message%20into%20the%20system%20recording.docx){target="_blank"}
+[**View Laboratory 10 PDF**](Laboratory%2010%20Upload%20the%20wav%20message%20into%20the%20system%20recording.pdf){target="_blank"}  
+[Download editable Laboratory 10 DOCX](Laboratory%2010%20Upload%20the%20wav%20message%20into%20the%20system%20recording.docx){target="_blank"}
 
 ### Laboratory 11 — Create an Announcement
 
@@ -111,7 +121,8 @@ Students create an announcement using the uploaded recording and modify the inbo
 
 **Primary function:** integrate recorded information into the live inbound call flow.
 
-[**Download original Laboratory 11 document (.docx)**](Laboratory%2011%20Creating%20announcement.docx){target="_blank"}
+[**View Laboratory 11 PDF**](Laboratory%2011%20Creating%20announcement.pdf){target="_blank"}  
+[Download editable Laboratory 11 DOCX](Laboratory%2011%20Creating%20announcement.docx){target="_blank"}
 
 ### Laboratory 12 — Create a Ring Group
 
@@ -119,7 +130,8 @@ Students create a ring group containing multiple extensions and modify the incom
 
 **Primary function:** implement simultaneous or grouped call distribution within the PBX.
 
-[**Download original Laboratory 12 document (.docx)**](Laboratory%2012%20Create%20a%20ring%20group.docx){target="_blank"}
+[**View Laboratory 12 PDF**](Laboratory%2012%20Create%20a%20ring%20group.pdf){target="_blank"}  
+[Download editable Laboratory 12 DOCX](Laboratory%2012%20Create%20a%20ring%20group.docx){target="_blank"}
 
 ### Laboratory 13 — Create a Queue
 
@@ -127,7 +139,8 @@ Students create a departmental call queue, assign extensions as agents, define t
 
 **Primary function:** introduce controlled call distribution when multiple callers or departmental agents are involved.
 
-[**Download original Laboratory 13 document (.docx)**](Laboratory%2013%20Create%20a%20Queue%20group.docx){target="_blank"}
+[**View Laboratory 13 PDF**](Laboratory%2013%20Create%20a%20Queue%20group.pdf){target="_blank"}  
+[Download editable Laboratory 13 DOCX](Laboratory%2013%20Create%20a%20Queue%20group.docx){target="_blank"}
 
 ### Laboratory 14 — Create a Time Group
 
@@ -135,7 +148,8 @@ Students define the operating days and hours of a simulated organization.
 
 **Primary function:** create a reusable schedule that can influence call-processing behavior.
 
-[**Download original Laboratory 14 document (.docx)**](Laboratory%2014%20Create%20a%20time%20group.docx){target="_blank"}
+[**View Laboratory 14 PDF**](Laboratory%2014%20Create%20a%20time%20group.pdf){target="_blank"}  
+[Download editable Laboratory 14 DOCX](Laboratory%2014%20Create%20a%20time%20group.docx){target="_blank"}
 
 ### Laboratory 15 — Create a Time Condition
 
@@ -143,7 +157,8 @@ Students associate the time group with different call destinations depending on 
 
 **Primary function:** make PBX call flow conditional on organizational operating hours.
 
-[**Download original Laboratory 15 document (.docx)**](Laboratory%2015%20Create%20a%20time%20condition.docx){target="_blank"}
+[**View Laboratory 15 PDF**](Laboratory%2015%20Create%20a%20time%20condition.pdf){target="_blank"}  
+[Download editable Laboratory 15 DOCX](Laboratory%2015%20Create%20a%20time%20condition.docx){target="_blank"}
 
 ### Laboratory 16 — Create an IVR
 
@@ -151,7 +166,8 @@ Students build an Interactive Voice Response menu, associate the previously crea
 
 **Primary function:** integrate multiple PBX services into a complete automated inbound call-handling workflow.
 
-[**Download original Laboratory 16 document (.docx)**](Laboratory%2016%20Create%20an%20ivr%20in%20the%20PBX.docx){target="_blank"}
+[**View Laboratory 16 PDF**](Laboratory%2016%20Create%20an%20ivr%20in%20the%20PBX.pdf){target="_blank"}  
+[Download editable Laboratory 16 DOCX](Laboratory%2016%20Create%20an%20ivr%20in%20the%20PBX.docx){target="_blank"}
 
 ## Progressive Functional Model
 
