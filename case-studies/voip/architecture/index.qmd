@@ -1,0 +1,46 @@
+---
+title: "Architecture"
+subtitle: "VoIP Multi-Network Laboratory Network and System Architecture"
+---
+
+# Architecture
+
+The laboratory uses a layered network model that separates the school infrastructure, the central VoIP laboratory/provider network, and each student's independent private network.
+
+## Layered IP Network Architecture
+
+![VoIP Multi-Network Laboratory — Layered IP Network Architecture](voip-layered-network-architecture.png)
+
+*Figure 1. Separation between the school/enterprise network, laboratory/provider network, and individual student LANs.*
+
+- **School / Enterprise Network:** `10.0.0.0/8`
+- **VoIP Laboratory / Provider Network:** `172.16.0.0/16`
+- **Student / Customer Network:** `192.168.1.0/24`
+
+The instructor-managed router separates the school infrastructure from the laboratory network. The central server and student router WAN interfaces share the `172.16.0.0/16` provider network. Each student router creates an isolated `192.168.1.0/24` LAN for the PBX and endpoints.
+
+Because the student LANs are independently routed, the same private subnet can be reused without conflicts. Students can directly observe **LAN → WAN → Routing → NAT → SIP Services**.
+
+## Historical IP Class Reference
+
+The addressing also provides a practical context for explaining the historical Class A, B, and C model while distinguishing it from modern CIDR addressing.
+
+## Cross-Module Analog–VoIP Integration
+
+![Cross-Module Integration — Analog Telephony and VoIP](analog-voip-cross-module-integration.png)
+
+*Figure 2. SIP trunk integration between the Analog Telephony and VoIP laboratory environments.*
+
+When the same cohort completes both modules, SIP trunking connects the two systems. In the Analog module, VoIP endpoints help verify analog infrastructure. In the VoIP module, analog telephone services become external destinations used to verify the IP-based infrastructure.
+
+## NAT and Port Forwarding
+
+After local systems are operational, a student can host an extension for a classmate located on another network. Because the PBX is behind NAT, the hosting student must configure the router so the required service is externally reachable.
+
+This reinforces LAN/WAN separation, NAT, port forwarding, service reachability, SIP connectivity, and troubleshooting.
+
+## Related Documentation
+
+- [Hardware](../hardware/index.qmd)
+- [Software](../software/index.qmd)
+- [Return to VoIP Laboratory](../index.qmd)
