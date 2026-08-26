@@ -59,6 +59,24 @@ A central instructor-managed VoIP platform provides the shared laboratory/provid
 
 [Explore the VoIP Multi-Network Laboratory](case-studies/voip/index.qmd)
 
+### Water Reservoir Level Control Laboratory
+
+The third documented case study extends the methodology into industrial automation through a functional water-level control system.
+
+The platform integrates:
+
+- an industrial **4–20 mA water-level sensor**;
+- signal conditioning that converts and expands the sensor signal for a voltage-input PLC;
+- an Allen-Bradley Micro820 programmable controller;
+- ladder-logic decision making;
+- hardware filtering and software hysteresis for signal stability;
+- relay-controlled DC pumps;
+- and a physical reservoir that allows students to observe the controlled process directly.
+
+The system was developed around real engineering constraints rather than an idealized trainer: incompatible sensor/PLC signal standards, limited physical reservoir range, analog resolution, electrical noise, and excessive actuator cycling all became part of the design and troubleshooting process.
+
+[Explore the Water Reservoir Level Control Case Study](case-studies/water-level-control/index.qmd)
+
 ## Project Documentation
 
 Each case study may include:

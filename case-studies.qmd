@@ -37,6 +37,18 @@ Because each PBX is located behind an independently managed router, the environm
 
 ---
 
+## Water Reservoir Level Control Laboratory
+
+The Water Reservoir Level Control Laboratory extends the case-study collection into industrial automation and process control. An industrial 4–20 mA level sensor is integrated with a voltage-input PLC through a custom signal-conditioning stage, while ladder logic, filtering, hysteresis, relays, pumps, and a physical reservoir create a complete closed-loop educational system.
+
+The implementation deliberately exposes students to constraints that occur in real automation work: signal-standard incompatibility, analog scaling, limited measurement resolution, electrical noise, actuator cycling, and the relationship between physical process dimensions and control-system behavior.
+
+The supporting Module 22 sequence progresses from PLC safety, software configuration, sourcing/sinking, GRAFCET, timers, counters, and digital sensors to analog instrumentation. Laboratory 11 then explicitly prepares students for the water-level project through a functional signal path: **Sensor → PLC Input → Raw Value → Converted Value → Ladder Decision → Output Action**.
+
+[**Explore the Water Reservoir Level Control Laboratory →**](case-studies/water-level-control/index.qmd)
+
+---
+
 ## Continuing Development
 
 Additional case studies may include networking, automation, cellular communications, and other technical learning environments.

@@ -1,0 +1,100 @@
+---
+title: "Learning Activities"
+subtitle: "Module 22 Progression Toward Analog Process Control"
+---
+
+# Learning Activities
+
+The water-level project is not introduced as an isolated final exercise. Module 22 develops the required competencies progressively so that students reach analog process control after working with the foundational PLC functions.
+
+## Phase 1 — Safe PLC Infrastructure
+
+### Laboratory 1 — ESR / Safety Circuit
+
+Students examine the role of an Emergency-Stop Relay independent of the PLC and the use of a PLC input for safe restart logic.
+
+**Functional contribution:** establishes that safety functions and control logic have different responsibilities.
+
+### Laboratory 2 — Software Configuration
+
+Students create a Connected Components Workbench project, select the Micro820 controller, and establish communication with a physical or simulated PLC.
+
+**Functional contribution:** creates the programming and communication environment used by later activities.
+
+### Laboratory 3 — Sourcing / Sinking
+
+Students configure PLC inputs and outputs around sourcing and sinking concepts.
+
+**Functional contribution:** connects field wiring conventions to PLC I/O behavior.
+
+## Phase 2 — Sequential Control Logic
+
+### Laboratory 4 — GRAFCET
+
+Students model sequential machine behavior using steps, transitions, actions, and conditions before implementing the sequence in ladder logic.
+
+### Laboratories 5–8 — Timers
+
+Students progressively work with TON, TP, and TOF instructions and then combine them in traffic-control applications.
+
+**Functional contribution:** develops temporal logic later used to stabilize actuator operation in process control.
+
+### Laboratory 9 — Counters
+
+Students use CTU/CTD concepts in a parking-capacity application with sensor events and state-dependent indicators.
+
+**Functional contribution:** reinforces state, event, and process-variable reasoning.
+
+## Phase 3 — Sensors and Field Signals
+
+### Laboratory 10 — Digital Sensors
+
+Students examine inductive, capacitive, ultrasonic, and photoelectric sensors together with PNP/NPN behavior and PLC input compatibility.
+
+**Functional contribution:** establishes sensor/PLC electrical compatibility before introducing continuous measurement.
+
+### Laboratory 11 — Analog Sensors
+
+Laboratory 11 deliberately transitions students from digital ON/OFF sensing to continuous analog values and directly supports the larger water-level project.
+
+Students work in a Jigsaw functional-system activity with four expert roles:
+
+1. Digital sensors;
+2. Analog sensors;
+3. Ladder-diagram decision logic;
+4. Analog-value conversion/scaling.
+
+The base group must then explain the complete signal path:
+
+**Sensor → PLC Input → Raw Value → Converted Value → Ladder Decision → Output Action**
+
+A potentiometer powered from the PLC 10 V supply is used as a didactic analog source so students can observe the relationship among physical movement, voltage, and PLC raw input values before working with the industrial water-level sensor.
+
+## Phase 4 — Water Reservoir Level Control Project
+
+Students apply the preceding competencies to a complete physical system involving:
+
+- a 4–20 mA industrial level sensor;
+- signal conversion and range expansion;
+- analog acquisition and scaling;
+- threshold-based decision logic;
+- hardware filtering;
+- software hysteresis and timing;
+- relay outputs;
+- DC pumps;
+- and a physical reservoir.
+
+The project intentionally contains engineering constraints that cannot be solved by ladder logic alone. Students must understand the relationship between the physical process, electrical signals, electronics, controller limitations, and software behavior.
+
+## Functional Learning Progression
+
+**Safety → PLC Setup → I/O Wiring → Sequential Modeling → Timing → Counting → Digital Sensing → Analog Sensing → Scaling → Signal Conditioning → Process Control → Functional Verification**
+
+This progression makes the water-level system the cumulative application of the module rather than an unrelated capstone exercise.
+
+## Related Documentation
+
+- [Architecture](../architecture/index.qmd)
+- [Hardware](../hardware/index.qmd)
+- [Software & Control Strategy](../software/index.qmd)
+- [Return to Water-Level Case Study](../index.qmd)

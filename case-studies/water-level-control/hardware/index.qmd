@@ -1,0 +1,52 @@
+---
+title: "Hardware"
+subtitle: "Instrumentation, PLC, Signal Conditioning, and Process Equipment"
+---
+
+# Hardware
+
+The laboratory combines standard PLC training hardware with industrial instrumentation and a small physical process platform.
+
+## Programmable Controller
+
+The Module 22 environment uses an Allen-Bradley **Micro820**, with Connected Components Workbench configured for the **2080-LC20-20QWB(R)** controller family.
+
+The controller provides the logic platform for analog acquisition, comparison, timing, state decisions, and output control.
+
+## Industrial Water-Level Sensor
+
+The primary process sensor uses a **4–20 mA current-loop output**. Its role is to provide a continuous measurement of reservoir level and introduce students to industrial analog instrumentation.
+
+## Signal-Conditioning Circuit
+
+A dedicated electronic interface adapts the sensor to the voltage-input PLC. The circuit converts the current-derived measurement to a compatible voltage and expands the limited physical measurement span to make better use of the PLC analog-input range.
+
+Passive filtering is incorporated to reduce electrical noise before the signal reaches the PLC analog-to-digital conversion stage.
+
+## Reservoir and Pumps
+
+A compact reservoir provides the physical process. DC pumps move water and are controlled through relay interfaces driven by the PLC outputs.
+
+The reduced reservoir size is pedagogically useful because it creates a real design constraint: a limited physical level range produces a limited electrical measurement range, forcing students to consider resolution and signal conditioning.
+
+## Relay Interface
+
+Relays isolate the PLC outputs from the pump loads and provide the electromechanical interface between low-power controller outputs and the actuators.
+
+## Modular Replication
+
+The system was designed for replication across multiple laboratory kits. The objective is not dependence on a unique component set, but preservation of the functional relationships among:
+
+- industrial analog sensing;
+- signal compatibility and conditioning;
+- PLC analog acquisition;
+- control logic;
+- electrical output interfacing;
+- and physical actuation.
+
+## Related Documentation
+
+- [Architecture](../architecture/index.qmd)
+- [Software & Control Strategy](../software/index.qmd)
+- [Learning Activities](../learning-activities/index.qmd)
+- [Return to Water-Level Case Study](../index.qmd)

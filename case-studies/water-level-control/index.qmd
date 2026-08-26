@@ -1,0 +1,40 @@
+---
+title: "Water Reservoir Level Control Laboratory"
+subtitle: "Industrial Instrumentation, Signal Conditioning, PLC Control, and Process Automation"
+---
+
+# Water Reservoir Level Control Laboratory
+
+This case study documents a functional water-level control platform developed for vocational PLC and automation education.
+
+The system combines industrial instrumentation, electronic signal conditioning, PLC programming, electromechanical actuation, and a physical water process. It was designed as a modular and replicable laboratory rather than as a single demonstration prototype.
+
+## Authentic Engineering Problem
+
+The original design used an industrial **4–20 mA water-level sensor**, while the available PLC accepted voltage-based analog inputs. Rather than replacing either component, the laboratory uses an intermediate signal-conditioning stage to preserve the industrial sensor while making its signal compatible with the available control hardware.
+
+The small physical reservoir introduced a second constraint: the usable sensor output initially occupied only approximately **1 V to 1.9 V**, wasting much of the PLC analog-input range. The conditioning circuit therefore expands the effective measurement span to approximately **1–10 V**, improving usable resolution while maintaining proportionality to water level.
+
+Electrical noise and process dynamics also produced unstable readings and excessive pump cycling. The implemented solution combines **hardware filtering** with **software hysteresis and temporal logic**.
+
+## Functional System Path
+
+**Water Level → 4–20 mA Sensor → Signal Conditioning → PLC Analog Input → Scaling / Decision Logic → Relay Output → DC Pump → Reservoir**
+
+This complete path allows students to connect instrumentation theory to an observable physical process.
+
+## Educational Role
+
+The project integrates concepts from electronics, electromechanics, and programmable control. Students encounter analog signals only after developing a foundation in PLC safety, I/O wiring, sourcing/sinking, sequential control, timers, counters, and digital sensors.
+
+Laboratory 11 explicitly bridges the transition from digital to analog control and prepares students for the project by organizing the signal path as:
+
+**Sensor → PLC Input → Raw Value → Converted Value → Ladder Decision → Output Action**
+
+## Documentation
+
+- [Architecture](architecture/index.qmd)
+- [Hardware](hardware/index.qmd)
+- [Software & Control Strategy](software/index.qmd)
+- [Learning Activities](learning-activities/index.qmd)
+- [Return to Case Studies](../../case-studies.qmd)
