@@ -52,6 +52,8 @@ The project therefore demonstrates why robust automation frequently requires coo
 
 ## HMI Extension
 
+![PanelView 800 HMI interface developed in Connected Components Workbench for process visualization and operator interaction.](../software-hmi.png){fig-alt="PanelView 800 HMI interface for water-level process visualization and operator interaction" width="95%"}
+
 The broader Module 22 environment also introduces PanelView 800 HMI configuration in CCW, including tag import, Ethernet communication, pushbuttons, and visual indicators. These skills can be applied to process visualization and operator interaction, although the core water-level control function does not depend on an HMI.
 
 ## Related Documentation
