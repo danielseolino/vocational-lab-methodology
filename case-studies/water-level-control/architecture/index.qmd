@@ -7,6 +7,8 @@ subtitle: "Water-Level Measurement and Control Signal Path"
 
 The laboratory is organized as a complete measurement-and-control chain rather than as isolated PLC exercises.
 
+![Implemented water-level control training system showing the physical process, sensing, wiring, and actuation components.](../image1.jpeg){fig-alt="Implemented water-level control laboratory training system" width="85%"}
+
 ## Functional Architecture
 
 **Physical Process → Measurement → Signal Adaptation → PLC Processing → Output Interface → Actuation → Physical Process**

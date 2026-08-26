@@ -7,6 +7,8 @@ subtitle: "Instrumentation, PLC, Signal Conditioning, and Process Equipment"
 
 The laboratory combines standard PLC training hardware with industrial instrumentation and a small physical process platform.
 
+![Laboratory I/O panel used to interface field devices, PLC signals, and the physical process hardware.](../IO-Panel.jpg){fig-alt="Water-level laboratory I/O panel" width="85%"}
+
 ## Programmable Controller
 
 The Module 22 environment uses an Allen-Bradley **Micro820**, with Connected Components Workbench configured for the **2080-LC20-20QWB(R)** controller family.
