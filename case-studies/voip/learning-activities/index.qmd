@@ -1,0 +1,182 @@
+---
+title: "Learning Activities"
+subtitle: "Module 21 — Progressive VoIP Laboratory Sequence"
+---
+
+# Learning Activities
+
+The VoIP laboratory is implemented as a progressive sequence in which each activity adds a new function to the student's independently managed telephone system.
+
+Rather than configuring isolated PBX features, students progressively construct a complete VoIP environment: virtualization → PBX deployment → extensions → endpoints → trunking → call routing → automated services.
+
+The sequence below is based on the laboratory activities currently used in Module 21.
+
+## Phase 1 — Build the Student PBX
+
+### Laboratory 1 — Configure VirtualBox
+
+Students create the virtual machine that will host the PBX. The activity introduces the virtualization environment, virtual hardware allocation, network adapter configuration, storage configuration, and attachment of the PBX installation image.
+
+**Primary function:** create the virtual computing environment required for the student's independent PBX.
+
+### Laboratory 2 — Install and Configure the PBX Platform
+
+Students install the FreePBX-based PBX environment and perform the initial system configuration, including network parameters, time zone, administrator credentials, and access to the web administration interface.
+
+**Primary function:** deploy an operational PBX server that can be administered through the network.
+
+### Laboratory 3 — Create SIP Extensions
+
+Students access FreePBX administration and create multiple SIP extensions, including extension numbers, display names, authentication credentials, and voicemail.
+
+**Primary function:** create subscriber identities and services inside the student's PBX.
+
+## Phase 2 — Register Physical and Software Endpoints
+
+### Laboratory 4 — Configure Zoiper
+
+Students configure a Zoiper softphone using one of the extensions created in Laboratory 3. They enter the extension credentials and PBX address and verify successful SIP registration.
+
+**Primary function:** connect a software endpoint to the PBX and verify SIP registration.
+
+### Laboratory 5 — Install an IP Phone
+
+Students connect a physical SIP/IP telephone, identify its network address, access its administration interface, and configure it with an extension from their PBX.
+
+**Primary function:** integrate a physical VoIP endpoint with the student's IP network and PBX.
+
+At this point, students can verify local calling between physical and software endpoints before introducing inter-network services.
+
+## Phase 3 — Connect to the Provider / Laboratory Network
+
+### Laboratory 6 — Create a SIP Trunk
+
+Students configure a SIP trunk between their PBX and the central laboratory/provider PBX on the `172.16.0.0/16` network. The activity introduces provider addressing, authentication, peer configuration, and registration.
+
+**Primary function:** establish the logical service connection between the student's private PBX and the shared laboratory infrastructure.
+
+### Laboratory 7 — Create an Outbound Route
+
+Students create an outbound route and associate a dialing pattern with the SIP trunk configured in Laboratory 6.
+
+**Primary function:** determine how external calls leave the student's PBX and which trunk carries them.
+
+### Laboratory 8 — Create an Inbound Route
+
+Students configure how calls arriving from the provider/laboratory network are handled and select the internal destination for incoming calls.
+
+**Primary function:** connect an externally received call to a destination inside the student's PBX.
+
+Together, Laboratories 6–8 create a complete inter-network calling path:
+
+**Endpoint → Student PBX → Outbound Route → SIP Trunk → Provider PBX → SIP Trunk → Inbound Route → Destination**
+
+## Phase 4 — Build Automated PBX Services
+
+### Laboratory 9 — Generate a Welcome Message
+
+Students create a recorded welcome message for use by the PBX automated services and save the resulting audio file for later integration.
+
+**Primary function:** create customer-facing audio content for automated call handling.
+
+### Laboratory 10 — Upload the Recording
+
+Students upload the previously created audio file into FreePBX System Recordings.
+
+**Primary function:** convert an external audio asset into a PBX resource that can be referenced by call-processing applications.
+
+### Laboratory 11 — Create an Announcement
+
+Students create an announcement using the uploaded recording and modify the inbound call path so incoming callers hear the announcement.
+
+**Primary function:** integrate recorded information into the live inbound call flow.
+
+### Laboratory 12 — Create a Ring Group
+
+Students create a ring group containing multiple extensions and modify the incoming route so a call can be distributed to several endpoints.
+
+**Primary function:** implement simultaneous or grouped call distribution within the PBX.
+
+### Laboratory 13 — Create a Queue
+
+Students create a departmental call queue, assign extensions as agents, define their order, and configure a failover destination.
+
+**Primary function:** introduce controlled call distribution when multiple callers or departmental agents are involved.
+
+### Laboratory 14 — Create a Time Group
+
+Students define the operating days and hours of a simulated organization.
+
+**Primary function:** create a reusable schedule that can influence call-processing behavior.
+
+### Laboratory 15 — Create a Time Condition
+
+Students associate the time group with different call destinations depending on whether the current time falls inside or outside the defined operating schedule.
+
+**Primary function:** make PBX call flow conditional on organizational operating hours.
+
+### Laboratory 16 — Create an IVR
+
+Students build an Interactive Voice Response menu, associate the previously created announcement/recording with the IVR, and configure keypad selections that route callers to queues, ring groups, and other destinations.
+
+**Primary function:** integrate multiple PBX services into a complete automated inbound call-handling workflow.
+
+## Progressive Functional Model
+
+The 16 activities are deliberately cumulative:
+
+1. **Virtualize** the PBX platform.
+2. **Deploy** the PBX operating environment.
+3. **Create** subscriber extensions.
+4. **Register** software endpoints.
+5. **Register** physical IP phones.
+6. **Interconnect** the PBX through a SIP trunk.
+7. **Route outbound** calls.
+8. **Route inbound** calls.
+9. **Create** customer-facing audio content.
+10. **Import** the recording into the PBX.
+11. **Present** announcements to callers.
+12. **Distribute** calls through ring groups.
+13. **Manage** callers through queues.
+14. **Define** organizational schedules.
+15. **Apply** schedule-dependent call logic.
+16. **Integrate** the services through an IVR.
+
+The final system is therefore the cumulative result of the preceding activities rather than a collection of unrelated exercises.
+
+## Advanced Network Activity — NAT and Port Forwarding
+
+After the individual PBXs are operational, students perform an additional inter-network activity.
+
+One student creates or assigns an extension for a classmate located behind another router. Because the hosting PBX is inside a private `192.168.1.0/24` LAN and separated from the laboratory/provider network by NAT, the hosting student must configure the router so the required SIP service can reach the PBX.
+
+The classmate then attempts to register the external endpoint to the remote PBX.
+
+This activity extends the laboratory beyond PBX administration into network troubleshooting and demonstrates the relationship among:
+
+- private and external addressing;
+- LAN/WAN boundaries;
+- NAT;
+- port forwarding;
+- SIP registration;
+- service reachability;
+- and end-to-end troubleshooting.
+
+## Cross-Module Integration Activity
+
+When the same cohort completes the Analog Telephony and VoIP modules, the central VoIP infrastructure can be interconnected with the analog laboratory through SIP trunking.
+
+Students can then validate VoIP configuration by placing calls to analog endpoints, while the earlier Analog Telephony module uses the complementary direction: analog infrastructure is built by students and verified through the VoIP system.
+
+This creates a complete progression from legacy subscriber infrastructure to modern IP telephony while preserving the functional relationship between the two technologies.
+
+## Documentation Note
+
+The laboratory documents describe the actual classroom implementation and may contain software-version-specific screens or terminology. The replication objective is the technical function and learning workflow rather than strict reproduction of a particular software release.
+
+## Related Documentation
+
+- [Architecture](../architecture/index.qmd)
+- [Hardware](../hardware/index.qmd)
+- [Software](../software/index.qmd)
+- [Return to VoIP Laboratory](../index.qmd)
