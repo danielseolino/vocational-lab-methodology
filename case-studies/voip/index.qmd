@@ -27,6 +27,14 @@ Each student router connects its WAN interface to the shared laboratory/provider
 
 Each student operates a complete routed VoIP environment using a laptop, dedicated router, physical SIP/IP telephone, VirtualBox PBX, laptop softphone, and mobile softphone endpoint.
 
+## Progressive Learning Sequence
+
+The Module 21 laboratory sequence develops the system progressively from virtualization and PBX installation through SIP endpoints, trunking, inbound/outbound routing, recordings, announcements, ring groups, queues, time-based routing, and IVR.
+
+The result is a functioning student-managed telephone system in which later activities depend on services configured during earlier activities.
+
+[**Explore the Module 21 Learning Activities →**](learning-activities/index.qmd)
+
 ## Central VoIP Infrastructure
 
 A separate instructor-managed mobile platform provides the shared provider/interconnection network through a Linux/FreePBX/Asterisk server, Ethernet switching, routing infrastructure, and SIP testing endpoint.
@@ -44,4 +52,5 @@ When the same cohort completes both the Analog Telephony and VoIP modules, the t
 - [Architecture](architecture/index.qmd)
 - [Hardware](hardware/index.qmd)
 - [Software](software/index.qmd)
+- [Learning Activities](learning-activities/index.qmd)
 - [Return to Case Studies](../../case-studies.qmd)
